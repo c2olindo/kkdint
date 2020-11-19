@@ -36,19 +36,30 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+
         $this->validate($request, [
             'pname'=>'required',
             'slug'=>'required',
             'image'=>'required',
             'pfeature'=>'required',
         ]);
+        $product=new product();
 
-        $product->pname = $request->pname;
-        $product->image = $request->image;
+        $product->product_name = $request->pname;
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $image_name = time() . $image->getClientOriginalName();
+            $destinationPath = public_path('/uploads/products');
+            $image->move($destinationPath, $image_name);
+            $product->image = $image_name;
+        }
+
         $product->slug = $request->slug;
-        $product->pfeature = $request->pfeature;
-        $product->pdescripion = $request->pdescripion;
+        $product->is_featured = $request->pfeature;
+        $product->description = $request->pdescripion;
         $product->save();
+        return view('admin.product.product');
+
     }
 
     /**

@@ -15,7 +15,7 @@
             {{ csrf_field() }}
             <div class="box-body">
               <div class="col-lg-6">
-    
+
                 <div class="form-group">
                   <label for="pname">Product Name</label>
                   <input type="text" class="form-control" id="title" name="pname" placeholder="Product Name">
@@ -25,7 +25,7 @@
                   <label for="slug">Product Slug</label>
                   <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug">
                 </div>
-                
+
               </div>
               <div class="col-lg-6">
                             <br>
@@ -40,11 +40,11 @@
                                   </label>
                                 </div>
                               </div>
-                              <br>                              
+                              <br>
                             </div>
             </div>
             <!-- /.box-body -->
-            
+
             <div class="box">
              <div class="box-header">
                <h3 class="box-title">Product Description
@@ -53,7 +53,7 @@
                <!-- /.box-header -->
                <div class="card-body pad">
                 <div class="mb-3">
-                  <textarea class="textarea" placeholder="Place some text here"
+                  <textarea class="textarea" name="pdescripion" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                 </div>
                 <p class="text-sm mb-0">
