@@ -34,8 +34,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">KKD EBike 3</a></h2>
+                                <a href="{{ route('kkd-ebike-3') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('kkd-ebike-3') }}" title="">KKD EBike 3</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -54,8 +54,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">ZXMCO Big Bull</a></h2>
+                                <a href="{{ route('big-bull') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('big-bull') }}" title="">ZXMCO Big Bull</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -75,8 +75,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">KKD EBike 4</a></h2>
+                                <a href="{{ route('kkd-ebike-4') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('kkd-ebike-4') }}" title="">KKD EBike 4</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -96,8 +96,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">ZXMCO LE Hungarian</a></h2>
+                                <a href="{{ route('hungarian') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('hungarian') }}" title="">ZXMCO LE Hungarian</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -116,8 +116,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">ZXMCO Lexus</a></h2>
+                                <a href="{{ route('lexus') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('lexus') }}" title="">ZXMCO Lexus</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -136,8 +136,8 @@
                                 <a href="services.html" title="" class="ext-link"></a>
                             </div><!--video-post-thumbnail end-->
                             <div class="video-post-info">
-                                <a href="index2.html#" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
-                                <h2><a href="index2.html#" title="">ZXMCO Peppa</a></h2>
+                                <a href="{{ route('peppa') }}" title="" class="rd-btn"><i class="fa fa-angle-double-right"></i></a>
+                                <h2><a href="{{ route('peppa') }}" title="">ZXMCO Peppa</a></h2>
                             </div>
                         </div><!--video-post end-->
                     </div>
@@ -260,7 +260,7 @@
         </div>
     </section><!--case-study-sec end-->
 
-    @include('front.common.request_quote')
+    {{-- @include('front.common.request_quote') --}}
 
     {{-- @include('front.common.inquiry') --}}
 

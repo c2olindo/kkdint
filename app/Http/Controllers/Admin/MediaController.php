@@ -35,7 +35,11 @@ class MediaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'file'=>'required',
+        ]);
+
+        $file->file
     }
 
     /**

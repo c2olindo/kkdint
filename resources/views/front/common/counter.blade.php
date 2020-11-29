@@ -8,10 +8,10 @@
                     </div>
                     <div class="counter-info">
                         <div class="counter-item">
-                            <h2 class="counter">250</h2>
+                            <h2 class="counter">5000</h2>
                             <span>+</span>
                         </div>
-                        <span>Cycles</span>
+                        <span>Cycles sold</span>
                     </div>
                 </div><!--counter-dv end-->
             </div>
@@ -22,10 +22,10 @@
                     </div>
                     <div class="counter-info">
                         <div class="counter-item">
-                            <h2 class="counter">50</h2>
+                            <h2 class="counter">4500</h2>
                             <span>+</span>
                         </div>
-                        <span>Scooties</span>
+                        <span>Scooties sold</span>
                     </div>
                 </div><!--counter-dv end-->
             </div>
@@ -36,10 +36,10 @@
                     </div>
                     <div class="counter-info">
                         <div class="counter-item">
-                            <h2 class="counter">135</h2>
+                            <h2 class="counter">3000</h2>
                             <span>+</span>
                         </div>
-                        <span>Three(3) Wheelers</span>
+                        <span>Three(3) Wheelers <br>sold</span>
                     </div>
                 </div><!--counter-dv end-->
             </div>

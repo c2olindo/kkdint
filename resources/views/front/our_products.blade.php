@@ -80,9 +80,9 @@
         <div class="mobile-menu">
 			<ul>
 				<li><a class="" href="{{ route('home') }}">Home</a></li>
-								<li><a href="{{ route('about_us') }}">About Us</a></li>
-								<li><a href="{{ route('products') }}">Our Products</a></li>
-								<li><a href="{{ route('contact') }}">Get In Touch</a></li>
+				<li><a href="{{ route('about_us') }}">About Us</a></li>
+				<li><a href="{{ route('products') }}">Our Products</a></li>
+				<li><a href="{{ route('contact') }}">Get In Touch</a></li>
 			</ul>
 		</div><!--mobile-menu end-->
 
@@ -95,7 +95,6 @@
                                 <li><a class="selected" data-option-value="*">All</a></li>
                                 <li><a data-option-value=".cycle">Cycle</a></li>
                                 <li><a data-option-value=".scooty">Scooty</a></li>
-                                <li><a data-option-value=".3_wheel_sc">3 Wheel Scooty</a></li>
                                 <li><a data-option-value=".3_wheeler">3 Wheeler</a></li>
                             </ul>
 						</div>
@@ -108,11 +107,21 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product1.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product1.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('big-bull') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product1.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">ZXMCO Bull</a></h3>
+                                        <h3><a href="{{ route('big-bull') }}" title="">ZXMCO Big Bull</a></h3>
+									</div>
+									<div class="gallery-col">
+                                        <div class="gallery-img">
+                                            <img src="{{ asset('assets/images/resources/product12.jpg') }}" alt="">
+                                            <ul class="gallery-optz">
+                                                <li><a href="{{ route('bull') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product1.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
+                                            </ul>
+                                        </div><!--gallery-img end-->
+                                        <h3><a href="{{ route('bull') }}" title="">ZXMCO Bull</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 scooty">
@@ -120,11 +129,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product2.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product2.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('peppa') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product2.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">ZXMCO Peppa</a></h3>
+                                        <h3><a href="{{ route('peppa') }}" title="">ZXMCO Peppa</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 scooty">
@@ -132,11 +141,23 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product3.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product3.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('lexus') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product3.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">ZXMCO Lexus</a></h3>
+                                        <h3><a href="{{ route('lexus') }}" title="">ZXMCO Lexus</a></h3>
+                                    </div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-sm-6 col-12 3_wheeler">
+                                    <div class="gallery-col">
+                                        <div class="gallery-img">
+                                            <img src="{{ asset('assets/images/resources/product10.jpg') }}" alt="">
+                                            <ul class="gallery-optz">
+                                                <li><a href="{{ route('jbve5') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product3.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
+                                            </ul>
+                                        </div><!--gallery-img end-->
+                                        <h3><a href="{{ route('jbve5') }}" title="">JBV E5</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 scooty">
@@ -144,11 +165,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product4.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product4.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('hungarian') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product4.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">ZXMCO Hungarian</a></h3>
+                                        <h3><a href="{{ route('hungarian') }}" title="">ZXMCO Hungarian</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 cycle">
@@ -156,11 +177,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product5.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product5.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('kkd-ebike-5') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product5.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">KKD EBike 5</a></h3>
+                                        <h3><a href="{{ route('kkd-ebike-5') }}" title="">KKD EBike 5</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 cycle">
@@ -168,11 +189,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product6.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product6.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('kkd-ebike-4') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product6.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">KKD EBike 4</a></h3>
+                                        <h3><a href="{{ route('kkd-ebike-4') }}" title="">KKD EBike 4</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 cycle">
@@ -180,11 +201,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product7.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product7.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('kkd-ebike-3') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product7.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">KKD EBike 3</a></h3>
+                                        <h3><a href="{{ route('kkd-ebike-3') }}" title="">KKD EBike 3</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 cycle">
@@ -192,11 +213,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product8.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product8.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('kkd-ebike-2') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product8.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">KKD EBike 2</a></h3>
+                                        <h3><a href="{{ route('kkd-ebike-2') }}" title="">KKD EBike 2</a></h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 cams cycle">
@@ -204,11 +225,11 @@
                                         <div class="gallery-img">
                                             <img src="{{ asset('assets/images/resources/product9.jpg') }}" alt="">
                                             <ul class="gallery-optz">
-                                                {{-- <li><a href="gallery.html#" title=""><i class="fa fa-link"></i></a></li> ---}}
-                                                <li><a href="{{ asset('assets/images/resources/product9.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li>
+                                                <li><a href="{{ route('kkd-ebike-1') }}" title=""><i class="fa fa-link"></i></a></li> -
+                                                {{-- <li><a href="{{ asset('assets/images/resources/product9.jpg') }}" title="" class="lightbox"><i class="fa fa-search"></i></a></li> --}}
                                             </ul>
                                         </div><!--gallery-img end-->
-                                        <h3><a href="gallery.html#" title="">KKD EBike 1</a></h3>
+                                        <h3><a href="{{ route('kkd-ebike-1') }}" title="">KKD EBike 1</a></h3>
                                     </div>
                                 </div>
                             </div><!--masonary end-->
@@ -241,7 +262,7 @@
 						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="widget widget-about">
 								<img src="{{ asset('assets/images/logo.png') }}" alt="">
-								<p>{{ config('app.name') }} Traders is one of the largest importers and distributors of Electric Vehicles in Bangladesh. We are the sole distributors of ZXMCO Scooters and JVB 3 Wheelers, two premier Electric Vehicle manufacturers in China.</p>
+								<p>{{ config('app.name') }} Traders is one of the largest importers and distributors of Electric Vehicles in Bangladesh. We are the sole distributors of ZXMCO Scooters and JBV 3 Wheelers, two premier Electric Vehicle manufacturers in China.</p>
 							</div><!--widget-about end-->
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6" >
@@ -258,8 +279,8 @@
 							<div class="widget widget-social">
 								<h3 class="widget-title">Follow Us</h3>
 								<ul class="socio-links">
-									<li><a href="index2.html#" title=""><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="index2.html#" title=""><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/kkdinternationaltraders" title=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://www.instagram.com/kkdinternationaltraders/" title=""><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div><!--widget-social end-->
 						</div>

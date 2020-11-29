@@ -35,36 +35,32 @@
                 </tr>
             </thead>
             <tbody>
+                @foreach ($product as $item)
                 <tr>
                     <td>
-                        1
+                        {{ $item['id'] }}
                     </td>
                     <td>
                         <a>
-                            AdminLTE v3
+                            {{ $item['product_name'] }}
                         </a>
                         <br/>
                     </td>
                     <td>
                         <ul class="list-inline">
-                            <p>&#9830;  48V12Ah Battery Capacity</p>
-                            <p>&#9830;  16" Wheels with Tubeless Tire</p>
-                            <p>&#9830;  Lead acid battery </p>
-                            <p>&#9830;  350W Motor</p>
-                            <p>&#9830;  Top Speed: 35 km/h+</p>
-                            <p>&#9830;  Range: 40 km</p>
+                           {{ $item['description'] }}
                         </ul>
                     </td>
                     <td>
-                        IMAGE
+                        <img src="{{ asset($item['image']) }}" alt="" style="height: 50px; width: auto;">
+                        
                     </td>
                     <td class="project_progress">
-                        <div class="form-group">
-                            <div class="custom-control custom-switch">
-                              <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                              <label class="custom-control-label" for="customSwitch1"></label>
-                            </div>
-                          </div>
+                        @if ($item['is_featured'] == '1')
+                            Yes
+                        @else
+                            No
+                        @endif
                     </td>
 
                     <td class="project-actions text-right" >
@@ -85,6 +81,8 @@
                         </a>
                     </td>
                 </tr>
+                @endforeach
+                
             </tbody>
         </table>
       </div>

@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="banner-content">
                     <h1>Power and Efficiency <br> <strong>King of all 3 Wheelers</strong></h1>
-                    <p>No charging hub needed, just plag and play!</p>
+                    <p>No refueling needed, just plag and play!</p>
                     {{-- <h1>Easy To Use, Safe, Reliable</h1>
                     <p>2000+ people have put their trust in electronic bikes, How about You?</p> --}}
                     {{-- <a href="index.html#" title="" class="lnk-default">Start Now</a> --}}

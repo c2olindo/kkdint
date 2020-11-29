@@ -15,7 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('admin.product.product');
+        $product = Product::all()->toArray();
+        return view('admin.product.product', compact('product'));
     }
 
     /**
@@ -58,7 +59,7 @@ class ProductController extends Controller
         $product->is_featured = $request->pfeature;
         $product->description = $request->pdescripion;
         $product->save();
-        return view('admin.product.product');
+        return view('admin.product.product', compact('product'));
 
     }
 

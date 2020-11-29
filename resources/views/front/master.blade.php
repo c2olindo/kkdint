@@ -93,7 +93,7 @@
 						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="widget widget-about">
 								<img src="{{ asset('assets/images/logo.png') }}" alt="">
-								<p>{{ config('app.name') }} Traders is one of the largest importers and distributors of Electric Vehicles in Bangladesh. We are the sole distributors of ZXMCO Scooters and JVB 3 Wheelers, two premier Electric Vehicle manufacturers in China.</p>
+								<p>{{ config('app.name') }} Traders is one of the largest importers and distributors of Electric Vehicles in Bangladesh. We are the sole distributors of ZXMCO Scooters and JBV 3 Wheelers, two premier Electric Vehicle manufacturers in China.</p>
 							</div><!--widget-about end-->
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6" >
@@ -110,8 +110,8 @@
 							<div class="widget widget-social">
 								<h3 class="widget-title">Follow Us</h3>
 								<ul class="socio-links">
-									<li><a href="index2.html#" title=""><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="index2.html#" title=""><i class="fab fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/kkdinternationaltraders" title=""><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://www.instagram.com/kkdinternationaltraders/" title=""><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div><!--widget-social end-->
 						</div>

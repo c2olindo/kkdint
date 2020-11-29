@@ -1,8 +1,6 @@
 @extends('front.master')
 
 @section('title', 'Get In Touch')
-    
-@endsection
 
 @section('content')
     {{-- @include('front.common.breadcrumb') --}}
@@ -22,8 +20,9 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="cct-jb overlay-2">
                             <h2>Head Office</h2>
-                            <p style="color: white">31, Central Road, New Market <br>Dhaka 1205</p>
-                            <p>+880167620934</p>
+                            <p style="color: white">31, Central Road, New Market </p>
+                            <p style="color: white; padding-top: 8px;">Dhaka 1205</p>
+                            <p style="color: white; padding-top: 8px;">+880167620934</p>
                         </div><!--cct-jb end-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -40,9 +39,8 @@
                                 </li>
                             </ul>
                             <ul class="socio-links">
-                                <li><a href="contact.html#" title=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="contact.html#" title=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="contact.html#" title=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/kkdinternationaltraders" title=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/kkdinternationaltraders/" title=""><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div><!--primary-contact end-->
                     </div>
